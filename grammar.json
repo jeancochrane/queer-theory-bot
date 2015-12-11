@@ -114,7 +114,6 @@
         "challenge",
         "address",
         "forge",
-        "focus",
         "seek",
         "deconstruct",
         "incorporate",
@@ -247,9 +246,9 @@
         "the #adjective#"
     ],    
     "singular_predicate":[  
-		"#transitive_verb.es# #object#", 
-	    "#transitive_verb.es# #object# #preposition# #object#",        
-	    "#intransitive_verb.es# #preposition# #object#"
+	"#transitive_verb.es# #object#", 
+	"#transitive_verb.es# #object# #preposition# #object#",        
+	"#intransitive_verb.es# #preposition# #object#"
     ],
     "plural_predicate":[  
         "#transitive_verb# #object#",
@@ -277,7 +276,6 @@
     ],
    
     "sentence":[  
-         
         "#phrase#.",
         "#phrase#.",
         "#phrase#.",
@@ -285,8 +283,8 @@
         "#phrase##addendum#.",
         "#phrase##addendum#.",
         "it is not that #phrase#; rather, that #phrase#.",
-        "it is #subject# that #singular_predicate#.",
-        "in the #adjective_noun#, #phrase#."
+        "it is #subject# that #singular_predicate#."
+        "in #adjective_noun#, #phrase#."
     ],    
     "subsidiary_sentence":[  
         "indeed, #sentence#",
@@ -324,8 +322,7 @@
  
    
     "tweet":[  
-         
-		"#sentence.capitalize#",
+	"#sentence.capitalize#",
         "#sentence.capitalize# #sentence.capitalize#",
         "#sentence.capitalize# #subsidiary_sentence.capitalize#",
         "#sentence.capitalize# #question.capitalize#",
